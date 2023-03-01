@@ -1,0 +1,26 @@
+Start
+display
+* لإضافة طالب إضغط على حرف a
+* لحذف طالب إضغط على حرف d
+* لتعديل معلومات طالب إضغط على حرف u
+* لعرض معلومات طالب إضغط على حرف s
+Get userinput
+if userinput = A Then
+    get معلومات الطالب من المستخدم (رقم الطالب، الاسم، الكنية، العمر، الصف، تاريخ التسجيل)
+    add الطالب الى قاعدة البيانات
+    display تمت الاضافة بنجاح
+if userinput = b Then
+    get رقم الطالب 
+    if رقم الطالب موجود Then
+        اخذف الطالب And display تم الخذف بنجاح
+         Else display الطالب غير موجود
+if userinput = u Then 
+    get رقم الطالب
+    if  الطالب موجود Then
+        display ادخل البيانات المراد تعديلها
+            غير معلومات الطالب        
+Else display الطالب غير موجود
+if userinput = s Then 
+    if الطالب موجود then display معلومات الطالب
+     Else display الطالب غير موجود
+end
