@@ -1,18 +1,19 @@
+                                               SCHOOL PROJECT 
+this is an app for schools who want to make there work easery and more acurate this app is made with nodejs and sqlite
 
 
-* لإضافة طالب إضغط على حرف a
 
-* لحذف طالب إضغط على حرف d
+Installation
+the app does not need Installation you can use it right away from your systym cmd
 
-* لتعديل معلومات طالب إضغط على حرف u
+Usage
+this app is used to add and delet and modify and show students info by the following ways:
+* To add a student, press the letter a
+* To delete a student, press the letter d
+* To modify a student's information, press the letter u
+* To view student information, press the letter s
 
-* لعرض معلومات طالب إضغط على حرف s
-
-اذا اخترت a قم باضافة معلومات الطالب الذي تريد اضافته (رقم الطالب، الاسم، الكنية، العمر، الصف، تاريخ التسجيل) 
-
-اذا اخترت d قم باضافة اسم الطالب لتغيير معلومات ثم ادخل المعلومات التي تريد تغييرها
-
-اذا اخترت u ادخل رقم الطالب الدي تريد حذفة
-
-اذا اخترت s اذخل رقم الطالب الذي تريد عرض معلوماته
-
+Contributing
+you can do anything you want with this project is has no copyright
+License
+this app is made by AYMAN ALRAWY and use of AI but it is open sorce so you can do what ever you want with it 
